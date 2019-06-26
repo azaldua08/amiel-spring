@@ -1,0 +1,9 @@
+{
+  "color": "red",
+  "frameSize": 60,
+  "make": "make",
+  "model": "model",
+  "modelYear": "2017",
+  "purpose": "urban",
+  "serialNumber": "01234567890"
+}

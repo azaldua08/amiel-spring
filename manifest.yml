@@ -1,0 +1,13 @@
+applications:
+- name: amielbikeshopapi
+  disk_quota: 1G
+  instances: 1
+  memory: 128M
+  random-route: true
+  stack: cflinuxfs2
+  path: build/libs/amiel-spring-0.0.1-SNAPSHOT.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud,mysql,development
+  services:
+    - mysql
+    - BikeShopConfigServer
